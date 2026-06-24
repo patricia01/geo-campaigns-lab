@@ -1,0 +1,19 @@
+# Scala / SBT (Si usas Scala)
+target/
+project/target/
+.bsp/
+.metals/
+.bloop/
+
+# Python / PySpark (Si usas Python)
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Spark, Checkpoints y Datos
+/tmp/
+*.parquet
+*.csv
+*.json
+spark-warehouse/
