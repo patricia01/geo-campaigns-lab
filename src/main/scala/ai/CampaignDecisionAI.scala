@@ -53,7 +53,8 @@ object CampaignDecisionAI {
     //          Failure(ex) → logar el error y usar offlineDecision
     // ──────────────────────────────────────────────────────
 
-//Llama al metodo offline
+offlineDecision(segment,congestion,technology,campaignsSent)
+
   }
 
   // ── Llamada HTTP a Claude API — YA DADO ──────────────────
